@@ -249,7 +249,7 @@ public class EditorPanel extends JPanel {
 		insDateB.setFocusable(false);
 		insDateB.setPreferredSize(new Dimension(24, 24));
 		insDateB.setRequestFocusEnabled(false);
-		insDateB.setToolTipText(Local.getString("Insert current date"));
+		insDateB.setToolTipText(Local.getString("Insert current date here"));
 		insDateB.setMinimumSize(new Dimension(24, 24));
 		insDateB.setMaximumSize(new Dimension(24, 24));
 		insDateB.setText("");
