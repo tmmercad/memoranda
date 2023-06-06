@@ -107,7 +107,7 @@ public class ProjectDialog extends JDialog {
         sdLabel.setMinimumSize(new Dimension(70, 20));
         sdLabel.setMaximumSize(new Dimension(70, 20));
         gbc = new GridBagConstraints();
-        gbc.gridx = 0; gbc.gridy = 2;
+        gbc.gridx = 1; gbc.gridy = 3;
         gbc.insets = new Insets(5, 10, 10, 10);
         centerPanel.add(sdLabel, gbc);
 
